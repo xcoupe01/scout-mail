@@ -125,6 +125,7 @@ class App extends React.Component {
 
   clearTable(){
     this.members = [];
+    this.setState({members: this.members});
   }
 
   /**
