@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scout-mail/static/css/main.ba64a14b.css",
+    "main.js": "/scout-mail/static/js/main.581c6065.js",
+    "index.html": "/scout-mail/index.html",
+    "main.ba64a14b.css.map": "/scout-mail/static/css/main.ba64a14b.css.map",
+    "main.581c6065.js.map": "/scout-mail/static/js/main.581c6065.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba64a14b.css",
+    "static/js/main.581c6065.js"
+  ]
+}
