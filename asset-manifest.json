@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/scout-mail/static/css/main.ba64a14b.css",
-    "main.js": "/scout-mail/static/js/main.581c6065.js",
+    "main.js": "/scout-mail/static/js/main.5c5eab60.js",
     "index.html": "/scout-mail/index.html",
     "main.ba64a14b.css.map": "/scout-mail/static/css/main.ba64a14b.css.map",
-    "main.581c6065.js.map": "/scout-mail/static/js/main.581c6065.js.map"
+    "main.5c5eab60.js.map": "/scout-mail/static/js/main.5c5eab60.js.map"
   },
   "entrypoints": [
     "static/css/main.ba64a14b.css",
-    "static/js/main.581c6065.js"
+    "static/js/main.5c5eab60.js"
   ]
 }
