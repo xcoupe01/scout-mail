@@ -99,6 +99,7 @@ class App extends React.Component {
       if (dataA > dataB) {
         return 1;
       }
+      return 1;
     });
     this.setState({members: this.members});
   }

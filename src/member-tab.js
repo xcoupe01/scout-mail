@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-export {MemberTab, MemberList};
 
 /**
  * Member tab react component to represent one row/member in the table
@@ -66,3 +65,5 @@ class MemberList extends React.Component{
     )
   }
 }
+
+export {MemberTab, MemberList};
