@@ -49,7 +49,7 @@ class App extends React.Component {
           })
         })
         this.setState({members: this.members});
-      })
+      });
     }
   };
 
@@ -123,6 +123,9 @@ class App extends React.Component {
     navigator.clipboard.writeText(result);
   }
 
+  /*
+   * Clears the member table
+   */
   clearTable(){
     this.members = [];
     this.setState({members: this.members});
@@ -149,7 +152,8 @@ class App extends React.Component {
               type='file' 
               id='xlsx-file' 
               accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" 
-              onChange={() => {this.read()}}>
+              onChange={(event) => {this.read(); event.target.value = null}}
+              >
             </input>
           </div>
           <input 
